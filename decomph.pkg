@@ -1,0 +1,8 @@
+v 0.1.0
+d 'DECOMPH': Decompose entropy in a within and between component
+d 
+d Distribution-Date:   20231205
+d License: Creative Commons Attribution 4.0
+d 
+F decomph.ado
+F decomph.sthlp

@@ -1,0 +1,6 @@
+v 0.1.0
+d Materials by Maarten L. Buis
+d University of Konstanz
+d maarten.buis@uni.kn
+
+p decomph
