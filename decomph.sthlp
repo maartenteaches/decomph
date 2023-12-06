@@ -201,9 +201,13 @@ and the mutual information (I(y,x)) are:
 The decomposition of entropy in conditional entropy and mutual information is 
 already part of the original article by Claude Shannon (1948). Its use in 
 Sociology to describe variation in a categorical variable and decompose that in 
-a within an between component was proposed by McFarland (1969) and expanded upon
-by Horan (1975) and Teachman (1980). Recently the use of entropy as a measure of
-dispersion has been picked up again, e.g. by Budescu and Budescu (2012).
+a within an between component was proposed by McFarland (1969) and Theil (1970) 
+and expanded upon by Horan (1975) and Teachman (1980). Recently the use of 
+entropy as a measure of dispersion has been picked up again, e.g. by Budescu and 
+Budescu (2012), and as a measure of segregation (Mora & Ruiz-Castillo 2011). A 
+particular application is as measure of how segregated fields of study are 
+between occupations as a measure of the strength of the link between education 
+and work (DiPrete et al. 2017, Bol et al. 2019).
 
 
 {marker examples}{...}
@@ -228,8 +232,18 @@ dispersion has been picked up again, e.g. by Budescu and Budescu (2012).
 {title:References}
 
 {phang}
+T. Bol, C.C. Eller, H.G. van de Werfhorst, & T.A. DiPrete (2019). School-to-Work 
+Linkages, Educational Mismatches, and Labor Market Outcomes. 
+{it:American Sociological Review}, 84(2), 275–307.
+
+{phang}
 D.V. Budescu and M. Budescu (2012) How to measure diversity when you must. 
 {it:Psychological Methods}, 17(2):215-227. 
+
+{phang}
+T.A. DiPrete, C.C. Eller, T. Bol, & H.G. van de Werfhorst (2017). School-to-Work 
+Linkages in the United States, Germany, and France. 
+{it:American Journal of Sociology}, 122(6), 1869–1938.
 
 {phang}
 P.M. Horan (1975). Information-Theoretic Measures and the Analysis of Social 
@@ -240,12 +254,20 @@ D.D. McFarland (1969). Measuring the Permeability of Occupational Structures:
 An Information-Theoretic Approach. {it:American Journal of Sociology}, 75(1), 41–61.
 
 {phang}
+R. Mora & J. Ruiz-Castillo (2011). Entropy-based segregation indices. 
+{it:Sociological Methodology}, 41, 159–194.
+
+{phang}
 C.E. Shannon (1948). A Mathematical Theory of Communication. 
 {it:Bell Systems Technical Journal} 27: 379-423, 623-656.
 
 {phang}
 J.D. Teachman (1980). Analysis of Population Diversity: Measures of Qualitative 
 Variation. {it:Sociological Methods & Research}, 8(3), 341-362.
+
+{phang}
+H. Theil (1970). On the Estimation of Relationships Involving Qualitative 
+Variables. {it:American Journal of Sociology}, 76(1), 103–154.
 
 
 {title:Author}
