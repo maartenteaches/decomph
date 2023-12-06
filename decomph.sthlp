@@ -201,13 +201,14 @@ and the mutual information (I(y,x)) are:
 The decomposition of entropy in conditional entropy and mutual information is 
 already part of the original article by Claude Shannon (1948). Its use in 
 Sociology to describe variation in a categorical variable and decompose that in 
-a within an between component was proposed by McFarland (1969) and Theil (1970) 
-and expanded upon by Horan (1975) and Teachman (1980). Recently the use of 
-entropy as a measure of dispersion has been picked up again, e.g. by Budescu and 
-Budescu (2012), and as a measure of segregation (Mora & Ruiz-Castillo 2011). A 
-particular application is as measure of how segregated fields of study are 
-between occupations as a measure of the strength of the link between education 
-and work (DiPrete et al. 2017, Bol et al. 2019).
+a within an between component was proposed by McFarland (1969), Theil (1970), 
+and Theil & Finizza (1971) and expanded upon by Horan (1975) and 
+Teachman (1980). Recently the use of entropy as a measure of dispersion has been 
+picked up again, e.g. by Budescu and Budescu (2012), and as a measure of 
+segregation (Mora & Ruiz-Castillo 2011). A particular application is as measure 
+of how segregated fields of study are between occupations as a measure of the 
+strength of the link between education and work 
+(DiPrete et al. 2017, Bol et al. 2019).
 
 
 {marker examples}{...}
@@ -268,6 +269,11 @@ Variation. {it:Sociological Methods & Research}, 8(3), 341-362.
 {phang}
 H. Theil (1970). On the Estimation of Relationships Involving Qualitative 
 Variables. {it:American Journal of Sociology}, 76(1), 103–154.
+
+{phang}
+H. Theil & A.J. Finizza (1971) A note on the measurement of racial integration 
+of schools by means of informational concepts, 
+{it:The Journal of Mathematical Sociology}, 1(2), 187-193
 
 
 {title:Author}
