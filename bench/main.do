@@ -1,5 +1,5 @@
 cscript
-cd h:\decomph
+cd "c:\mijn documenten\projecten\stata\decomph"
 
 do bench\decomph.do
 do bench\ifinweight.do

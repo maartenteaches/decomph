@@ -14,6 +14,9 @@ mat T_percent[1,3] =  15.96299413374276
 }
 matrix C_percent = r(percent)
 assert mreldif( C_percent , T_percent ) < 1E-8
+
+assert reldif(C_percent[1,1], C_percent[1,2] + C_percent[1,3]) < 1E-8
+
 _assert_streq `"`: rowfullnames C_percent'"' `"%"'
 _assert_streq `"`: colfullnames C_percent'"' `"total within between"'
 mat drop C_percent T_percent
@@ -26,6 +29,8 @@ mat T_H[1,3] =  .3127105942755986
 }
 matrix C_H = r(H)
 assert mreldif( C_H , T_H ) < 1E-8
+assert reldif(C_H[1,1],  C_H[1,2] + C_H[1,3]) < 1E-8 
+
 _assert_streq `"`: rowfullnames C_H'"' `"H"'
 _assert_streq `"`: colfullnames C_H'"' `"total within between"'
 mat drop C_H T_H
@@ -57,6 +62,9 @@ mat T_percent[4,2] =                100
 }
 matrix C_percent = r(percent)
 assert mreldif( C_percent , T_percent ) < 1E-8
+matrix total = C_percent[1...,1]
+matrix sumparts = C_percent[1...,2]+C_percent[1...,3]
+assert mreldif(total, sumparts) < 1E-8
 _assert_streq `"`: rowfullnames C_percent'"' `"light medium_light medium_heavy heavy"'
 _assert_streq `"`: colfullnames C_percent'"' `"total within between"'
 mat drop C_percent T_percent
