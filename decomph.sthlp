@@ -132,7 +132,7 @@ The base of the logarithm determines the scale of our measure of surprise. If we
 set the base to 2, then we compare all surprises to the flip of a fair coin. With
 a fair coin there are two possible outcomes (heads or tails) and each has a 
 probability of 1/2. So the H = 1/2log_2(1/(1/2)) + 1/2log_2(1/(1/2)) = 1/2log_2(2) + 1/2log_2(2) = 1.
-Similarly, if we choose base 10, then our reference for a our surprise is a role
+Similarly, if we choose base 10, then our reference for a our surprise is a roll
 of a fair 10-sided die. If we use e as our base, there is no such nice phyical
 analogue, but some computations can be easier. If you were an avid DnD player, 
 and your frame of reference for a random event would be a throw of a D20 (20 
@@ -204,8 +204,9 @@ Sociology to describe variation in a categorical variable and decompose that in
 a within an between component was proposed by McFarland (1969), Theil (1970), 
 and Theil & Finizza (1971) and expanded upon by Horan (1975) and 
 Teachman (1980). Recently the use of entropy as a measure of dispersion has been 
-picked up again, e.g. by Budescu and Budescu (2012), and as a measure of 
-segregation (Mora & Ruiz-Castillo 2011). A particular application is as measure 
+picked up again, e.g. by Budescu & Budescu (2012), and as a measure of 
+segregation (Frankel & Volij 2011, Mora & Ruiz-Castillo 2011, Guinea-Martin et al. 
+2015, Guinea-Martin & Mora 2022). A particular application is as measure 
 of how segregated fields of study are between occupations as a measure of the 
 strength of the link between education and work 
 (DiPrete et al. 2017, Bol et al. 2019).
@@ -247,8 +248,21 @@ Linkages in the United States, Germany, and France.
 {it:American Journal of Sociology}, 122(6), 1869–1938.
 
 {phang}
+D. Guinea-Martin, R. Mora, J. Ruiz-Castillo (2015). The joint effect of ethnicity 
+and gender on occupational segregation. An approach based on the Mutual 
+Information Index. Social Science Research, 49, 167-78. 
+
+{phang}
+D. Guinea-Martin, & R. Mora (2022). Computing decomposable multigroup indices of 
+segregation. The Stata Journal, 22(3), 521-556. 
+
+{phang}
 P.M. Horan (1975). Information-Theoretic Measures and the Analysis of Social 
 Structures. {it:Sociological Methods & Research}, 3(3), 321-340. 
+
+{phang}
+D.M. Frankel & O. Volij (2011) Measuring school segregation. {it:Journal of Economic Theory},
+146(1), 1-38.
 
 {phang}
 D.D. McFarland (1969). Measuring the Permeability of Occupational Structures: 
