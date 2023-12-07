@@ -17,7 +17,13 @@ percentage each element contributes to the total (marginal) entropy.
 
 ## Requirements and use
 
-This package requires [Stata](https://www.stata.com) version 18 or higher. The easiest way to install this is using E. F. Haghish's [github](https://haghish.github.io/github/) command. After you have installed that, you can install `mkproject` by typing in Stata: `github install maartenteaches/decomph`. Alternatively, `decomph` can be installed without the `github` command by typing in Stata `net install decomph, from("https://raw.githubusercontent.com/maartenteaches/decomph/main")`.
+This package requires [Stata](https://www.stata.com) version 17 or higher. The 
+easiest way to install this is using E. F. Haghish's 
+[github](https://haghish.github.io/github/) command. After you have installed 
+that, you can install `mkproject` by typing in Stata: 
+`github install maartenteaches/decomph`. Alternatively, `decomph` can be 
+installed without the `github` command by typing in Stata 
+`net install decomph, from("https://raw.githubusercontent.com/maartenteaches/decomph/main")`.
 
 
 Author

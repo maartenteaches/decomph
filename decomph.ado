@@ -1,6 +1,6 @@
 *! version 0.1.0 04Dec2023 MLB
 program define decomph
-	version 18
+	version 17
 	syntax varlist(min=2 max=2) [if] [in] [pweight fweight], ///
 	      [base(real 2) over(passthru) name(name) maxcat(passthru)] 
 	
